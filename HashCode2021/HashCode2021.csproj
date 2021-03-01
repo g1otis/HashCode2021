@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Inputs\a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inputs\b.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inputs\c.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inputs\d.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inputs\e.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inputs\f.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Outputs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net5\Resources\Outputs\a.txt.out" />
+    <None Include="bin\Debug\net5\Resources\Outputs\b.txt.out" />
+    <None Include="bin\Debug\net5\Resources\Outputs\c.txt.out" />
+    <None Include="bin\Debug\net5\Resources\Outputs\d.txt.out" />
+    <None Include="bin\Debug\net5\Resources\Outputs\e.txt.out" />
+    <None Include="bin\Debug\net5\Resources\Outputs\f.txt.out" />
+  </ItemGroup>
+
+</Project>
